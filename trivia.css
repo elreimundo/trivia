@@ -1,6 +1,33 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+}
+
 .game {
   width: 500px;
   height: 500px;
-  background-color: orange;
+  border: 1px solid #bbb;
   margin: 0 auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.game ul p, .game ul li {
+  background-color: white;
+  width: 80%;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+}
+
+.game ul li {
+  margin-bottom: 10px;
 }
