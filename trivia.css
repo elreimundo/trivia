@@ -31,3 +31,11 @@ body {
 .game ul li {
   margin-bottom: 10px;
 }
+
+.game ul li.selected {
+  background-color: red;
+}
+
+.game ul li.selected.correct {
+  background-color: green;
+}

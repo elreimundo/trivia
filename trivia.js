@@ -47,7 +47,8 @@
 
   TriviaGame.View.prototype.answerListener = function(answerObj) {
     return function() {
-      alert(answerObj.correct ? 'you got it!' : 'oh noes!');
+      this.classList.add('selected');
+      if (answerObj.correct) this.classList.add('correct');
     }
   }
 
